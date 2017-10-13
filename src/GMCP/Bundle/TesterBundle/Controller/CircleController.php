@@ -13,7 +13,7 @@ class CircleController extends Controller
 	/**
      * Matches /circle exactly
      *
-     * @Route("/circle/{radius}", name="circle_calculate"
+     * @Route("/circle/{radius}"), name="circle_calculate"
      */
     public function calculateAction($radius)
     {
